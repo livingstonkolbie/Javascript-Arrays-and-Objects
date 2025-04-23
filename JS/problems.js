@@ -29,7 +29,6 @@ let colors = ["green", "blue", "yellow", "orange"];
 console.log(colors);
 
 let removedColor = colors.pop()
-
 console.log(removedColor);
 
 console.log(colors);
@@ -41,7 +40,7 @@ console.log('Problem 3');
 let names = ["Kolbie", "Conner", "Jordan", "Nick", "Kolton"];
 console.log(names);
 
-for(i=0; i < names.length; i++) {
+for(i = 0; i < names.length; i++) {
     console.log(`Hello, ${names[i]} !`);
 }    
 
@@ -54,7 +53,7 @@ console.log('Problem 1');
 let student = {
     fName: "Jack",
     age: 17,
-    grade: "A"
+    grade: "A",
 }
 
 console.log(student.fName, student.grade);
@@ -84,4 +83,10 @@ let car = {
 }
 console.log(car);
 
-let propertyName = "model"; //I'm confused with the rest of this problem... bracket notation in Object problems
+let propertyName = "model";
+
+
+car["color"] = "silver"
+
+console.log(car[propertyName]);
+console.log(car);
