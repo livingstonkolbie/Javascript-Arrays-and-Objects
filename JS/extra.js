@@ -1,3 +1,5 @@
-// Advanced Array Method
+let people = ["jim", "paul", "tyrone"];
 
-// Filter
+people [people.length - 1];
+
+console.log(people);
